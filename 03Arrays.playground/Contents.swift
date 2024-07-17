@@ -47,7 +47,8 @@ shoppingCart.remove(at: 0) //detergent is removed from the array
 shoppingCart
 
 shoppingCart.removeLast() //removes the last value of array
-shoppingCart
+print(shoppingCart)
+
         
 
 
