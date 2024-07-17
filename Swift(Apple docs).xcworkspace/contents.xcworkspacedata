@@ -7,4 +7,7 @@
    <FileRef
       location = "group:02operators.playground">
    </FileRef>
+   <FileRef
+      location = "group:03Arrays.playground">
+   </FileRef>
 </Workspace>
