@@ -23,7 +23,7 @@ let reactNativeDevelopers: Set = ["Swati", "Sham", "Geeta"]
 //are you looking to hire cross-platfrom developers?
 let crossPlatformDevelopers = developers.subtracting(swiftDevelopers)
 
-//are you looking to hire experianced iOS developers?
+//are you looking to hire fresher iOS developers?
 let fresheriOSDevelopers = swiftDevelopers.intersection(experiancedDevelopers)
 
 //are you looking to hire both experianced and fresher cross-Platform developers?
