@@ -16,12 +16,7 @@ airports["xyz"] = "xyz city"
 //there is NO xyz airport so using "nil" to remove it
 airports["xyz"] = nil
 //using alternate method "removeValue"
-
-if let removedValue = airports.removeValue(forKey: "MAA") {
-    print("the removed value is \(removedValue)")
-} else {
-    print("the airport list doesn't contain MAA")
-}
+//removeValue can be used in the conditionals for Ex. if...else
 
 
 
