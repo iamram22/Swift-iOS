@@ -34,9 +34,9 @@ print(developers(candidate: "Mathews", shortListed: true))
 
 
 
-//functions with Multiple return values
 /*The example below defines a function called minMax(array:),
  which finds the smallest and largest numbers in an array of Int values: */
+//functions with Multiple return values
 func minMax(array: [Int]) -> (min: Int, max: Int) {
     var currentMin = array[0]
     var currentMax = array[0]
