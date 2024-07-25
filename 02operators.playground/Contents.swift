@@ -70,6 +70,38 @@ var colorToUse = yourColor ?? myColor //if yourColor is not defined myColor is u
 //Range operators
 //requires knowledge of loops, re-visting once done with loops
 
+//coming back to Range
+/*closed range operator(a...b) : defines a range that runs from a to b,
+this includes values from a to b, a cannot be greater than b */
+for index in 1...5 {
+    print("\(index) times 5 is \(index * 5)")
+}
+
+//half-open range operator
+let names = ["Anna", "Alex", "Brian", "jack"]
+let count = names.count
+for i in 0..<count {
+    print("Person \(i + 1) is called \(names[i])")
+}
+
+//one sided range
+for name in names[2...] {
+    print(name)
+}
+
+for name in names[...2] {
+    print(name)
+} //self-explanatory
+
+for name in names[..<2] {
+    print(name)
+} //print till index 2 (end range is NOT printed)
+
+let range = ...5
+range.contains(26) //returns a boolean value.
+
+
+
 //Logical operators (NOT, AND ,OR)
 //NOT operator
 let admin = false

@@ -28,3 +28,7 @@ for _ in 1...power {
 
 print("\(base) to the power of \(power) is \(answer)")
 
+let minutes = 60
+for tickMark in 0..<minutes {
+    //this will render the tickmark each minute (60 times)
+}
