@@ -16,12 +16,7 @@ greet(person: "Mr. Jay")
 
 
 
-/*using multiple parameters (which are written within the function’s parentheses,
-separated by commas.*/
-/*creating a simple function to filter through the candidates,
-who have applied for a developer job,
-using String and Boolean data types for check*/
-
+//using multiple parameters
 func developers(candidate: String, shortListed: Bool) -> String {
     if shortListed {
         return " dear \(candidate), you have done well, Pls attend the technical round (final interview)"
@@ -32,21 +27,4 @@ func developers(candidate: String, shortListed: Bool) -> String {
 print(developers(candidate: "Mathews", shortListed: true))
 
 
-
-
-/*The example below defines a function called minMax(array:),
- which finds the smallest and largest numbers in an array of Int values: */
-//functions with Multiple return values
-func minMax(array: [Int]) -> (min: Int, max: Int) {
-    var currentMin = array[0]
-    var currentMax = array[0]
-    for value in array[1..<array.count] {
-        if value < currentMin {
-            currentMin = value
-        } else if value > currentMax {
-            currentMax = value
-        }
-    }
-    return (currentMin, currentMax)
-}
 
